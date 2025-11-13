@@ -1,0 +1,37 @@
+# Minimal Windows requirements for MDLM (Core functionality only)
+# Python 3.9+ required
+# This file contains only packages that install reliably on Windows
+
+# IMPORTANT: Install PyTorch FIRST with CUDA 12.6
+# pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cu126
+
+# Core dependencies - guaranteed to work on Windows
+datasets==2.18.0
+einops==0.7.0
+fsspec==2024.2.0
+git-lfs==1.6
+h5py==3.10.0
+hydra-core==1.3.2
+ipdb==0.13.13
+lightning==2.2.1
+notebook==7.1.1
+jupyter==1.0.0
+nvitop==1.3.2
+omegaconf==2.3.0
+packaging==23.2
+pandas==2.2.1
+rich==13.7.1
+seaborn==0.13.2
+scikit-learn==1.4.0
+timm==0.9.16
+transformers==4.38.2
+wandb==0.13.5
+
+# Triton for Windows
+triton-windows
+
+# NOTE: This minimal installation:
+# - Works with DiT (Diffusion Transformer) architecture
+# - Does NOT support Mamba architecture
+# - Does NOT include flash-attn optimization
+# - Sufficient for running pretrained models and training new ones with DiT backbone
