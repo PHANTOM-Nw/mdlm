@@ -260,9 +260,9 @@ pip install --default-timeout=100 -r requirements-windows.txt
 | Triton | triton==2.2.0 | triton-windows |
 | Flash Attention | flash-attn==2.5.6 | 可选 (可能不兼容) |
 
-## 获取帮助
+## 📚 延伸阅读
 
-如遇到问题，请参考：
+- [PACKAGE_COMPATIBILITY.md](./PACKAGE_COMPATIBILITY.md) - 详细的包兼容性说明和性能影响分析
 - [项目主页](https://github.com/s-sahoo/mdlm)
 - [PyTorch官方文档](https://pytorch.org/get-started/locally/)
 - [CUDA安装指南](https://docs.nvidia.com/cuda/cuda-installation-guide-microsoft-windows/)
